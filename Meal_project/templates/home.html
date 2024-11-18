@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %} Home Page {% endblock %}
+
+{% block content %} 
+<div class="d-flex align-items-center">
+    <h2>This redirectes to meal home page.</h2>
+    <a href="{% url 'meal_page' %}" class="btn btn-info ms-3">Click Me</a>
+</div>
+
+{% endblock %}
